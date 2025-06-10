@@ -603,7 +603,7 @@ function safeRender() {
   setTimeout(() => {
     try {
       if (!isHeaderRendered) {
-        figlet.text("NT EXHAUST", { font: "ANSI Shadow" }, (err, data) => {
+        figlet.text("ADB NODE", { font: "ANSI Shadow" }, (err, data) => {
           if (!err) headerBox.setContent(`{center}{bold}{cyan-fg}${data}{/cyan-fg}{/bold}{/center}`);
           isHeaderRendered = true;
         });
