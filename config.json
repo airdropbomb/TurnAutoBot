@@ -1,5 +1,5 @@
 {
-  "sendRepetitions": 20,
+  "sendRepetitions": 10,
   "minEth": 0.00002,
   "maxEth": 0.0001
 }
